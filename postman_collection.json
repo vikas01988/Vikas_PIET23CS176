@@ -1,0 +1,101 @@
+{
+    "info": {
+        "name": "AV Room API",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "variable": [
+        {
+            "key": "baseUrl",
+            "value": "http://localhost:4000/api"
+        },
+        {
+            "key": "token",
+            "value": ""
+        },
+        {
+            "key": "bookingId",
+            "value": ""
+        }
+    ],
+    "item": [
+        {
+            "name": "Health",
+            "request": {
+                "method": "GET",
+                "url": "{{baseUrl}}/health"
+            }
+        },
+        {
+            "name": "Register student",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"name\":\"Aarav Rao\",\"email\":\"aarav@example.com\",\"password\":\"password123\"}"
+                },
+                "url": "{{baseUrl}}/auth/register"
+            }
+        },
+        {
+            "name": "List equipment",
+            "request": {
+                "method": "GET",
+                "header": [
+                    {
+                        "key": "Authorization",
+                        "value": "Bearer {{token}}"
+                    }
+                ],
+                "url": "{{baseUrl}}/equipment"
+            }
+        },
+        {
+            "name": "Create booking",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Authorization",
+                        "value": "Bearer {{token}}"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"equipmentId\":\"CAM-014\",\"quantity\":1,\"borrowDate\":\"2025-09-18\",\"expectedReturnDate\":\"2025-09-20\"}"
+                },
+                "url": "{{baseUrl}}/bookings"
+            }
+        },
+        {
+            "name": "Transfer active loan",
+            "request": {
+                "method": "PATCH",
+                "header": [
+                    {
+                        "key": "Authorization",
+                        "value": "Bearer {{token}}"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"name\":\"Meera Iyer\",\"email\":\"meera@example.com\",\"department\":\"Media Studies\",\"rollNumber\":\"AV-2026-022\",\"note\":\"Borrower handoff approved by admin\"}"
+                },
+                "url": "{{baseUrl}}/bookings/{{bookingId}}/transfer"
+            }
+        }
+    ]
+}

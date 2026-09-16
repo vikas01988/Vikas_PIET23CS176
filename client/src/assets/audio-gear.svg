@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="Audio kit">
+  <rect width="640" height="420" fill="#17333e"/>
+  <circle cx="472" cy="148" r="82" fill="#137d77" opacity=".72"/>
+  <rect x="124" y="92" width="164" height="242" rx="34" fill="#f7faf9"/>
+  <circle cx="206" cy="174" r="48" fill="#143244"/>
+  <circle cx="206" cy="174" r="22" fill="#e66752"/>
+  <circle cx="206" cy="274" r="38" fill="#143244"/>
+  <path d="M372 138h70c46 0 84 38 84 84s-38 84-84 84h-70z" fill="#f7faf9"/>
+  <rect x="350" y="176" width="48" height="92" rx="20" fill="#e4b144"/>
+</svg>

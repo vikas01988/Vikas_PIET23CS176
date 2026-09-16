@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-label="Organized AV equipment wall">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#102d3c"/>
+      <stop offset=".55" stop-color="#176a6a"/>
+      <stop offset="1" stop-color="#e66752"/>
+    </linearGradient>
+    <linearGradient id="shelf" x1="0" x2="1">
+      <stop offset="0" stop-color="#f7faf9"/>
+      <stop offset="1" stop-color="#d9e8e6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="680" fill="url(#bg)"/>
+  <path d="M0 520c178-82 336-96 520-54 202 46 350 35 680-102v316H0z" fill="#071821" opacity=".34"/>
+  <rect x="120" y="138" width="960" height="70" rx="16" fill="url(#shelf)" opacity=".9"/>
+  <rect x="120" y="346" width="960" height="70" rx="16" fill="url(#shelf)" opacity=".9"/>
+  <g fill="#ffffff" opacity=".88">
+    <rect x="188" y="244" width="170" height="88" rx="16"/>
+    <circle cx="272" cy="288" r="34" fill="#143244"/>
+    <rect x="215" y="222" width="62" height="28" rx="10"/>
+    <rect x="450" y="238" width="178" height="110" rx="18"/>
+    <rect x="482" y="264" width="112" height="58" rx="10" fill="#143244"/>
+    <rect x="706" y="234" width="70" height="118" rx="20"/>
+    <circle cx="742" cy="274" r="20" fill="#143244"/>
+    <circle cx="742" cy="320" r="14" fill="#143244"/>
+    <rect x="835" y="226" width="164" height="128" rx="22"/>
+    <path d="M872 258h90v60h-90z" fill="#143244"/>
+  </g>
+  <g fill="#f2c75b" opacity=".95">
+    <rect x="198" y="452" width="124" height="92" rx="18"/>
+    <rect x="402" y="448" width="164" height="96" rx="18"/>
+    <rect x="650" y="454" width="214" height="84" rx="18"/>
+    <rect x="926" y="442" width="86" height="104" rx="18"/>
+  </g>
+  <g stroke="#ffffff" stroke-width="12" stroke-linecap="round" opacity=".5">
+    <path d="M170 94h860"/>
+    <path d="M170 612h860"/>
+  </g>
+</svg>

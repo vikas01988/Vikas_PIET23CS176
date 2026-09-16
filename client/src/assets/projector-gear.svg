@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="Projector kit">
+  <rect width="640" height="420" fill="#1f3e50"/>
+  <rect x="94" y="132" width="354" height="178" rx="26" fill="#f7faf9"/>
+  <rect x="146" y="178" width="160" height="84" rx="18" fill="#dbe9f3"/>
+  <circle cx="380" cy="220" r="52" fill="#143244"/>
+  <circle cx="380" cy="220" r="28" fill="#47769e"/>
+  <path d="M452 178l144-58v202l-144-58z" fill="#e4b144" opacity=".9"/>
+  <path d="M0 346h640v74H0z" fill="#071821" opacity=".35"/>
+</svg>

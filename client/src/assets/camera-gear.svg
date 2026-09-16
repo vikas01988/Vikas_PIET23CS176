@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="Camera kit">
+  <rect width="640" height="420" fill="#183849"/>
+  <path d="M0 312c86-70 160-78 270-40 118 41 216 33 370-60v208H0z" fill="#071821" opacity=".45"/>
+  <rect x="136" y="148" width="368" height="178" rx="28" fill="#f7faf9"/>
+  <rect x="184" y="112" width="128" height="52" rx="18" fill="#f7faf9"/>
+  <circle cx="330" cy="238" r="74" fill="#143244"/>
+  <circle cx="330" cy="238" r="42" fill="#47769e"/>
+  <circle cx="445" cy="178" r="18" fill="#e66752"/>
+  <rect x="84" y="90" width="96" height="22" rx="11" fill="#e4b144"/>
+</svg>
